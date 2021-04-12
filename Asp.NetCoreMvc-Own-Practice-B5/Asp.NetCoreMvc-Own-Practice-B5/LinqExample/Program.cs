@@ -17,17 +17,20 @@ namespace LinqExample
         };
         static void Main(string[] args)
         {
-            IEnumerable<Student> studentQuery =
-                from student in students
-                //where student.Scores[0] > 90 || student.Scores[3] < 60
-                //orderby student.Last ascending
-                //orderby student.Scores[0] descending
-                orderby student.Scores[0] descending
-                select student;
+            //Student Query2 is an IEnumerable
 
-            foreach(Student student in studentQuery)
+            //IEnumerable<IGrouping<char, Student>>
+                var studentQuery2 =
+                from student in students
+                group student by student.Last[0];
+
+            foreach(var studentGroup in studentQuery2)
             {
-                Console.WriteLine("{0}, {1}, {2}",student.First, student.Last, student.Scores[0]);
+                Console.WriteLine(studentGroup.Key);
+                foreach(Student student in studentGroup)
+                {
+                    Console.WriteLine("  {0}, {1}", student.First, student.Last);
+                }
             }
         }
     }

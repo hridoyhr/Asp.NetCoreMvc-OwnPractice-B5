@@ -14,6 +14,8 @@ namespace Example1
             new Student {First="Farhan", Last="Korish", ID=209, Scores= new List<int>{ 97, 87,79,80} },
             new Student {First="Anik", Last="Mahmud", ID=204, Scores=new List<int>{ 66,78,74,72} }
         };
+        private static int averageScore;
+
         static void Main(string[] args)
         {
             #region Group By LINQ
@@ -147,6 +149,32 @@ namespace Example1
             {
                 Console.WriteLine(print);
             }
+            #endregion
+
+            #region User method syntax in a query expression
+            //var studentQuery6 =
+            //    from student in students
+            //    let totalScore = student.Scores[0] + student.Scores[1] +
+            //        student.Scores[2] + student.Scores[3]
+            //    select totalScore;
+
+            //double averageScore = studentQuery6.Average();
+            //Console.WriteLine("Class average score: {0}", averageScore);
+            #endregion
+
+            #region Select Query
+            var studentQuery8 =
+                from student in students
+                let x = student.Scores[0] + student.Scores[1] +
+                        student.Scores[2] + student.Scores[3]
+                where x > averageScore
+                select new { id = student.ID, score = x };
+
+            foreach (var item in studentQuery8)
+            {
+                Console.WriteLine("Student ID: {0}, Score: {1}", item.id, item.score);
+            }
+
             #endregion
         }
     }

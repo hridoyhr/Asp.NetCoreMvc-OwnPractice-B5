@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionandAction", "Functi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunActionEx", "FunActionEx\FunActionEx.csproj", "{03B6CDB9-52AF-4E95-8B28-E765CDEF7522}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventEx2", "EventEx2\EventEx2.csproj", "{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{03B6CDB9-52AF-4E95-8B28-E765CDEF7522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B6CDB9-52AF-4E95-8B28-E765CDEF7522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B6CDB9-52AF-4E95-8B28-E765CDEF7522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{A5637085-8D68-4D77-96DE-33CFC7FC73A7} = {FCD60A90-CB69-487F-BC85-5F92F201F16D}
 		{10644D02-42DB-491D-BEBC-5565A2812CF2} = {FCD60A90-CB69-487F-BC85-5F92F201F16D}
 		{03B6CDB9-52AF-4E95-8B28-E765CDEF7522} = {BDF34D23-5919-4071-BC7B-3161823C81ED}
+		{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1} = {FCD60A90-CB69-487F-BC85-5F92F201F16D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {945AEFCE-BDDC-4B45-8A90-F0EDC5879B84}

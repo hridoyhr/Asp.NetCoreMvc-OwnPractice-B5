@@ -8,23 +8,22 @@ namespace DelExample1
 
         static void Main(string[] args)
         {
-
+            var logic =new Perform(PrintMethod);
             var text = "my message";
-            ProcessText(text);
+            ProcessText(text, logic);
 
         }
 
-        static void PrintMethod(string textPoint)
+        public static void PrintMethod(string textToPrint)
         {
-            Console.WriteLine($"--{textPoint}---");
+            Console.WriteLine($"---{textToPrint}:::--");
         }
-        
 
-        static void ProcessText(string text)
+        static void ProcessText(string text, Perform perform)
         {
             if(!string.IsNullOrWhiteSpace(text))
             {
-                Console.WriteLine(text);
+                perform(text);
             }
         }
     }

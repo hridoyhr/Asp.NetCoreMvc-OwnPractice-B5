@@ -8,16 +8,19 @@ namespace DelExample1
 
         static void Main(string[] args)
         {
-            var logic =new Perform(PrintMethod);
+            var printer = new PrintFormat();
+
+            var logic =new Perform(printer.Print1);
+            var logic2 = new Perform(printer.Print2);
+
+            var logic3 = logic + logic2;
+
             var text = "my message";
-            ProcessText(text, logic);
+            ProcessText(text, logic3);
 
         }
 
-        public static void PrintMethod(string textToPrint)
-        {
-            Console.WriteLine($"---{textToPrint}:::--");
-        }
+        
 
         static void ProcessText(string text, Perform perform)
         {

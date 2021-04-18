@@ -6,19 +6,13 @@ namespace DelExample4
     {
         static void Main(string[] args)
         {
-            var designerr = new PuzzleMaker.Design(StrangeDesing);
-            Print(designerr);
+            var design1 = new PuzzleDesing1();
+            var designer = new PuzzleMaker.Design(design1.Print);
+
+            var puzzleMaker = new PuzzleMaker();
+            puzzleMaker.GeneratePuzzle(designer, 3, 3);
         }
 
-        static void StrangeDesing(int x, int y)
-        {
-            Console.WriteLine($"Printing from static method: {x}, {y}");
-        }
-
-        static void Print(PuzzleMaker.Design designer)
-        {
-            Console.WriteLine("Welcome to printing: ");
-            designer(5, 7);
-        }
+        
     }
 }

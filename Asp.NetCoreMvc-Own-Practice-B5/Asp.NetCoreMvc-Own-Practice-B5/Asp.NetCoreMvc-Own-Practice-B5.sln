@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionEx", "ReflectionEx\ReflectionEx.csproj", "{2A423E97-1341-49FD-9038-071DE3FB6E7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-1", "Example-1\Example-1.csproj", "{67EF25BD-13EB-4028-8236-BD59D98ADE9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{2A423E97-1341-49FD-9038-071DE3FB6E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A423E97-1341-49FD-9038-071DE3FB6E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A423E97-1341-49FD-9038-071DE3FB6E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EF25BD-13EB-4028-8236-BD59D98ADE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EF25BD-13EB-4028-8236-BD59D98ADE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EF25BD-13EB-4028-8236-BD59D98ADE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EF25BD-13EB-4028-8236-BD59D98ADE9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{03B6CDB9-52AF-4E95-8B28-E765CDEF7522} = {BDF34D23-5919-4071-BC7B-3161823C81ED}
 		{DD68EAAD-56CA-4B8D-9323-08E8B89AC1A1} = {FCD60A90-CB69-487F-BC85-5F92F201F16D}
 		{2A423E97-1341-49FD-9038-071DE3FB6E7A} = {5118E834-3ACB-40E2-A364-C348073347D7}
+		{67EF25BD-13EB-4028-8236-BD59D98ADE9C} = {5118E834-3ACB-40E2-A364-C348073347D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {945AEFCE-BDDC-4B45-8A90-F0EDC5879B84}

@@ -24,9 +24,7 @@ namespace Example2
                 if (string.IsNullOrWhiteSpace(input))
                     break;
 
-                var userSelection = Type.GetType("Example2." + input);
-                var constructor = userSelection.GetConstructor(new Type[] { });
-                var item = (IGameItem)constructor.Invoke(new object[] { });
+                var item = new GameItemFactory().CreateItem(input);
 
                 item.PrintMe();
             }

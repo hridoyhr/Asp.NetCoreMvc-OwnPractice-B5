@@ -8,5 +8,9 @@ namespace Example2
 {
     public class Bat : IGameItem
     {
+        public void PrintMe()
+        {
+            Console.WriteLine("I am a Bat..");
+        }
     }
 }

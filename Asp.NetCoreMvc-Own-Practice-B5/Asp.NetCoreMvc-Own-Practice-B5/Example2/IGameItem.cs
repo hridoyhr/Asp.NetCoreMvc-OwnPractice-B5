@@ -8,5 +8,6 @@ namespace Example2
 {
     public interface IGameItem
     {
+        void PrintMe();
     }
 }

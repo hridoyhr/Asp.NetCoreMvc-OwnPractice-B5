@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Reflection;
 using System.Linq;
+using System.Reflection;
 
-namespace Example2
+namespace Example_3_R
 {
     class Program
     {
@@ -11,10 +11,10 @@ namespace Example2
             var types = Assembly.GetExecutingAssembly().GetTypes();
 
             Console.WriteLine("Please choose a game item::\n");
-             
-            foreach(var type in types)
+
+            foreach (var type in types)
             {
-                if (type.GetInterfaces().Any(x => x.Name == "IGameItem"))
+                if (type.GetInterfaces().Any(x => x.Name == "IDepartmen"))
                     Console.WriteLine(type.Name);
             }
 
@@ -25,7 +25,7 @@ namespace Example2
                 if (string.IsNullOrWhiteSpace(input))
                     break;
 
-                var item = new GameItemFactory().CreateItem(input);
+                var item = new DepartmentFactory().CreateItem(input);
 
                 item.PrintMe();
             }

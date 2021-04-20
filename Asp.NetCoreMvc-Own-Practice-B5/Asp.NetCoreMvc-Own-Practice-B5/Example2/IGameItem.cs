@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Example2
 {
-    public class Ball : IGameItem
+    public interface IGameItem
     {
-        public void PrintMe()
-        {
-            Console.WriteLine("I am a Ball..");
-        }
+        void PrintMe();
     }
 }

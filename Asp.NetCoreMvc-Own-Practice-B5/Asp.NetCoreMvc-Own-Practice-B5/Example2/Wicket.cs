@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Example2
 {
-    public class Ball : IGameItem
+    public class Wicket : IGameItem
     {
         public void PrintMe()
         {
-            Console.WriteLine("I am a Ball..");
+            Console.WriteLine("I am Wicket!!");
         }
     }
 }

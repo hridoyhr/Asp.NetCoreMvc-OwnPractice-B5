@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Example2
 {
-    public class Bat
+    public class Bat : IGameItem
     {
     }
 }

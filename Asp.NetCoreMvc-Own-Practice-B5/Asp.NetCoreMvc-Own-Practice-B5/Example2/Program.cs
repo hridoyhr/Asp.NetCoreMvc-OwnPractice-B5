@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Linq;
 
 namespace Example2
 {
@@ -11,7 +12,8 @@ namespace Example2
 
             foreach(var type in types)
             {
-                Console.WriteLine(type.FullName);
+                if (type.GetInterfaces().Any(x => x.Name == "IGameItem"))
+                    Console.WriteLine(type.Name);
             }
 
 

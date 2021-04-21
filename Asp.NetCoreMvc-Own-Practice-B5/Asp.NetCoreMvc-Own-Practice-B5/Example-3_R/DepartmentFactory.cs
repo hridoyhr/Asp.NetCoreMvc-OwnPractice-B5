@@ -11,9 +11,9 @@ namespace Example_3_R
     {
         public IDepartmen CreateItem(string name)
         {
-            var assemblyName = Assembly.GetExecutingAssembly().GetName();
+            var assemblyNames = Assembly.GetExecutingAssembly().GetName();
 
-            var userSelection = Type.GetType(assemblyName.Name +"."+ name);
+            var userSelection = Type.GetType(assemblyNames.Name +"."+ name);
             var constructor = userSelection.GetConstructor(new Type[] { });
             var item = (IDepartmen)constructor.Invoke(new object[] { });
 

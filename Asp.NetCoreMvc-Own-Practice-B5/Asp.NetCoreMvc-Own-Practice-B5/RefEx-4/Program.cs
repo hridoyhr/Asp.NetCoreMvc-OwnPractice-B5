@@ -7,7 +7,7 @@ namespace RefEx_4
     class Program
     {
         static void Main(string[] args)
-        {
+         {
             var types = Assembly.GetExecutingAssembly().GetTypes();
 
             Console.WriteLine("Please Choose your item\n");
@@ -15,7 +15,7 @@ namespace RefEx_4
             foreach (var type in types)
             {
                 if (type.GetInterfaces().Any(x => x.Name == "IProduct"))
-                Console.WriteLine(type.Name);
+                    Console.WriteLine(type.Name);
             }
 
             while(true)

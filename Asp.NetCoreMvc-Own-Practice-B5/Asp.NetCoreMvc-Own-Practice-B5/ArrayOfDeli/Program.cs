@@ -12,7 +12,6 @@ namespace ArrayOfDeli
             DelOp[] obj =
             {
                 new DelOp(Operation.Add),
-
                 new DelOp(Operation.Multiple)
             };
 

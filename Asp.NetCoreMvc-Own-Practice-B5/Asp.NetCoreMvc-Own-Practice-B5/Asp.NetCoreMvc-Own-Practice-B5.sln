@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicAssem", "DynamicAsse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeligateSum", "DeligateSum\DeligateSum.csproj", "{BE564010-CC56-4D5C-B92F-E4190131B84D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfDeli", "ArrayOfDeli\ArrayOfDeli.csproj", "{A720D7FB-C338-4A42-80E6-6E98C46679AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{BE564010-CC56-4D5C-B92F-E4190131B84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE564010-CC56-4D5C-B92F-E4190131B84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE564010-CC56-4D5C-B92F-E4190131B84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A720D7FB-C338-4A42-80E6-6E98C46679AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A720D7FB-C338-4A42-80E6-6E98C46679AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A720D7FB-C338-4A42-80E6-6E98C46679AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A720D7FB-C338-4A42-80E6-6E98C46679AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +163,7 @@ Global
 		{4F170A81-82EA-4A4A-92C8-D7723166E256} = {5118E834-3ACB-40E2-A364-C348073347D7}
 		{B12E62B3-917E-4112-9BE1-58E4E5FAB153} = {5118E834-3ACB-40E2-A364-C348073347D7}
 		{BE564010-CC56-4D5C-B92F-E4190131B84D} = {FCD60A90-CB69-487F-BC85-5F92F201F16D}
+		{A720D7FB-C338-4A42-80E6-6E98C46679AE} = {FCD60A90-CB69-487F-BC85-5F92F201F16D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {945AEFCE-BDDC-4B45-8A90-F0EDC5879B84}

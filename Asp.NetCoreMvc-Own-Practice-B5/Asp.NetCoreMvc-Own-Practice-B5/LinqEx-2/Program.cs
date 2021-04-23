@@ -26,15 +26,29 @@ namespace LinqEx_2
         };
         static void Main(string[] args)
         {
-            IEnumerable<Student> studentQuery =
+            #region Where Clasues
+            //IEnumerable<Student> studentQuery =
+            //    from student in students
+            //    where student.Scores[0] > 90
+            //    select student;
+
+            //foreach (Student student1 in studentQuery)
+            //{
+            //    Console.WriteLine("{0}, {1}", student1.First, student1.Last);
+            //}
+            #endregion
+
+            #region Where Clause Multiple query
+            var studenQuery2 =
                 from student in students
-                where student.Scores[0] > 90
+                where student.Scores[0] > 90 && student.Scores[3] < 80
                 select student;
 
-            foreach(Student student1 in studentQuery)
+            foreach(Student student2 in studenQuery2)
             {
-                Console.WriteLine("{0}, {1}", student1.First, student1.Last);
+                Console.WriteLine("{0}", student2.Last);
             }
+            #endregion
         }
     }
 }

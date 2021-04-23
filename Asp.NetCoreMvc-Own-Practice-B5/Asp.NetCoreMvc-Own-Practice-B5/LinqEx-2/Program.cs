@@ -53,12 +53,13 @@ namespace LinqEx_2
             #region Modify the Query "OrderBY"
             var studentQuery3 =
                 from student in students
-                orderby student.Last ascending
+                orderby student.Last descending
                 select student;
 
             foreach(Student student1 in studentQuery3)
             {
-                Console.WriteLine("{0}", student1.Last);
+                //Console.WriteLine("{0}", student1.Last);
+                Console.WriteLine("{0} , {1}, {2}", student1.Last, student1.First, student1.Scores[0]);
             }
             #endregion
         }

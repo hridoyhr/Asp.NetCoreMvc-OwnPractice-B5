@@ -39,14 +39,59 @@ namespace LinqEx_2
             #endregion
 
             #region Where Clause Multiple query
-            var studenQuery2 =
-                from student in students
-                where student.Scores[0] > 90 && student.Scores[3] < 80
-                select student;
+            //var studenQuery2 =
+            //    from student in students
+            //    where student.Scores[0] > 90 && student.Scores[3] < 80
+            //    select student;
 
-            foreach(Student student2 in studenQuery2)
+            //foreach(Student student2 in studenQuery2)
+            //{
+            //    Console.WriteLine("{0}", student2.Last);
+            //}
+            #endregion
+
+            #region Modify the Query "OrderBY"
+            //var studentQuery3 =
+            //    from student in students
+            //    orderby student.Last descending
+            //    select student;
+
+            //foreach(Student student1 in studentQuery3)
+            //{
+            //    //Console.WriteLine("{0}", student1.Last);
+            //    Console.WriteLine("{0} , {1}, {2}", student1.Last, student1.First, student1.Scores[0]);
+            //}
+            #endregion
+
+            #region Group Query
+            //var studentQuery4 =
+            //    from student in students
+            //    group student by student.Last[0];
+
+            //foreach(var studentGroup in studentQuery4)
+            //{
+            //    Console.WriteLine(studentGroup.Key);
+            //    foreach(Student student in studentGroup)
+            //    {
+            //        Console.WriteLine("{0},{1}", student.Last, student.First);
+            //    }
+            //}
+            #endregion
+
+            #region Order the groups by their key value
+            var studentQuery5 =
+                from student in students
+                group student by student.Last[0] into studentGroup
+                orderby studentGroup.Key
+                select studentGroup;
+
+            foreach(var groupOFStudent in studentQuery5)
             {
-                Console.WriteLine("{0}", student2.Last);
+                Console.WriteLine(groupOFStudent.Key);
+                foreach(var student in groupOFStudent)
+                {
+                    Console.WriteLine("{0} {1}", student.Last, student.First);
+                }
             }
             #endregion
         }

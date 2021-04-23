@@ -39,14 +39,26 @@ namespace LinqEx_2
             #endregion
 
             #region Where Clause Multiple query
-            var studenQuery2 =
+            //var studenQuery2 =
+            //    from student in students
+            //    where student.Scores[0] > 90 && student.Scores[3] < 80
+            //    select student;
+
+            //foreach(Student student2 in studenQuery2)
+            //{
+            //    Console.WriteLine("{0}", student2.Last);
+            //}
+            #endregion
+
+            #region Modify the Query "OrderBY"
+            var studentQuery3 =
                 from student in students
-                where student.Scores[0] > 90 && student.Scores[3] < 80
+                orderby student.Last ascending
                 select student;
 
-            foreach(Student student2 in studenQuery2)
+            foreach(Student student1 in studentQuery3)
             {
-                Console.WriteLine("{0}", student2.Last);
+                Console.WriteLine("{0}", student1.Last);
             }
             #endregion
         }

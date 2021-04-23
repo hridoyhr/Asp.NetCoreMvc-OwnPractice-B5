@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereSelect", "WhereSelect\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqEx-2", "LinqEx-2\LinqEx-2.csproj", "{0558CD4A-7E9A-423B-AC46-BFE48AD7E5BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionG", "ReflectionG\ReflectionG.csproj", "{23ECE6A2-6270-4419-B36B-C6D1FC5AFDE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{0558CD4A-7E9A-423B-AC46-BFE48AD7E5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0558CD4A-7E9A-423B-AC46-BFE48AD7E5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0558CD4A-7E9A-423B-AC46-BFE48AD7E5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23ECE6A2-6270-4419-B36B-C6D1FC5AFDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23ECE6A2-6270-4419-B36B-C6D1FC5AFDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23ECE6A2-6270-4419-B36B-C6D1FC5AFDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23ECE6A2-6270-4419-B36B-C6D1FC5AFDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

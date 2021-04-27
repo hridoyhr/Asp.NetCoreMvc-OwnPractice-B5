@@ -1,0 +1,15 @@
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\RefEx4.exe
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\RefEx4.deps.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\RefEx4.runtimeconfig.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\RefEx4.runtimeconfig.dev.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\RefEx4.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\ref\RefEx4.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\bin\Debug\net5.0\RefEx4.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.GeneratedMSBuildEditorConfig.editorconfig
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.AssemblyInfoInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.AssemblyInfo.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.csproj.CoreCompileInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\ref\RefEx4.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\Asp.NetCoreMvc-Own-Practice-B5\RefEx4\obj\Debug\net5.0\RefEx4.genruntimeconfig.cache

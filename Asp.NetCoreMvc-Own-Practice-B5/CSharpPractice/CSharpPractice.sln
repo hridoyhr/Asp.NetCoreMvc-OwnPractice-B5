@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice", "CSharpPractice\CSharpPractice.csproj", "{B8D5DE25-DFB5-4227-88FE-108BAF0FAD88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{97BA56D9-C120-43A7-89E8-39AD3AA50AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-1", "Example-1\Example-1.csproj", "{062607C7-9707-471C-A3AB-5587C2EC73DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{B8D5DE25-DFB5-4227-88FE-108BAF0FAD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D5DE25-DFB5-4227-88FE-108BAF0FAD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D5DE25-DFB5-4227-88FE-108BAF0FAD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062607C7-9707-471C-A3AB-5587C2EC73DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062607C7-9707-471C-A3AB-5587C2EC73DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062607C7-9707-471C-A3AB-5587C2EC73DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062607C7-9707-471C-A3AB-5587C2EC73DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{062607C7-9707-471C-A3AB-5587C2EC73DD} = {97BA56D9-C120-43A7-89E8-39AD3AA50AB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19316CC8-F1C1-4788-8060-EC79C1C694B4}

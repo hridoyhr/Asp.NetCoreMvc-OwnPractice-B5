@@ -1,0 +1,16 @@
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\Example1.exe
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\Example1.deps.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\Example1.runtimeconfig.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\Example1.runtimeconfig.dev.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\Example1.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\ref\Example1.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\bin\Debug\net5.0\Example1.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.csprojAssemblyReference.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.GeneratedMSBuildEditorConfig.editorconfig
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.AssemblyInfoInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.AssemblyInfo.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.csproj.CoreCompileInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\ref\Example1.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\Example1\obj\Debug\net5.0\Example1.genruntimeconfig.cache

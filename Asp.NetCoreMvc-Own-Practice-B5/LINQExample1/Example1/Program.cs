@@ -176,6 +176,33 @@ namespace Example1
             }
 
             #endregion
+
+            #region Using query expression syntax
+            string sentence = "the quick brown fox jums over the lazy dog";
+            string[] words = sentence.Split(' ');
+
+            var query =
+                from word in words
+                group word.ToUpper() by word.Length into gr
+                orderby gr.Key
+                select new { Length = gr.Key, Words = gr};
+
+            //using method-based query syntax
+
+            var query2 = words.
+                GroupBy(w => w.Length, w => w.ToUpper()).
+                Select(g => new { Length = g.Key, Words = g }).
+                OrderBy( o => o.Length );
+
+            foreach(var obj in query)
+            {
+                Console.WriteLine("Word of length{0}: ", obj.Length);
+                foreach(string word in obj.Words)
+                {
+                    Console.WriteLine(word);
+                }
+            }
+            #endregion
         }
     }
 }

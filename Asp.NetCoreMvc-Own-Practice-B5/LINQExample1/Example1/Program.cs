@@ -289,12 +289,23 @@ namespace Example1
             #endregion
 
             #region Union unique elements from both input sequence
-            string[] planets1 = { "Mercury", "Venus", "Earth", "Jupiter" };
-            string[] planets2 = { "Mercury", "Earth", "Mars", "Jupiter" };
+            //string[] planets1 = { "Mercury", "Venus", "Earth", "Jupiter" };
+            //string[] planets2 = { "Mercury", "Earth", "Mars", "Jupiter" };
 
-            var query = from planet in planets1.Union(planets2)
-                        orderby planet.Length, planet.Substring(0, 1)
-                        select planet;
+            //var query = from planet in planets1.Union(planets2)
+            //            orderby planet.Length, planet.Substring(0, 1)
+            //            select planet;
+
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region Filter From an Array
+            string[] words = { "the", "up", "down", "on", "top", "fil"};
+
+            var query = from word in words
+                        where word.Length == 3
+                        select word;
 
             foreach(var str in query)
                 Console.WriteLine(str);

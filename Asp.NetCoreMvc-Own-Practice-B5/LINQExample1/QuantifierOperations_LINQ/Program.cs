@@ -14,6 +14,7 @@ namespace QuantifierOperations_LINQ
         };
         static void Main(string[] args)
         {
+            //Quantifier Operations
             //Determine which market have all fruits names length equal = 5
             #region All(method)
             //var names = from market in markets
@@ -34,12 +35,23 @@ namespace QuantifierOperations_LINQ
             #endregion
 
             #region Contains Method
-            var names = from market in markets
-                        where market.Items.Contains("kiwi")
-                        select market.Name;
+            //var names = from market in markets
+            //            where market.Items.Contains("kiwi")
+            //            select market.Name;
 
-            foreach(var name in names)
-                Console.WriteLine(name);
+            //foreach(var name in names)
+            //    Console.WriteLine(name);
+            #endregion
+
+            //Projection Operations
+            #region Select method
+            List<string> words = new List<string> { "an", "apple", "arrange", "day"};
+
+            var query = from word in words
+                        select word.Substring(0, 2);
+
+            foreach(var str in query)
+                Console.WriteLine(str);
             #endregion
         }
     }

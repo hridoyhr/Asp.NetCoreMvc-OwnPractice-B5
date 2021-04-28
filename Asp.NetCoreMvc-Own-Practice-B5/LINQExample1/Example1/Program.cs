@@ -228,17 +228,53 @@ namespace Example1
             #endregion
 
             #region Secondary Ascending sort
-            string[] words = { "the", "quick", "brown", "fox", "jumps"};
+            //string[] words = { "the", "quick", "brown", "fox", "jumps"};
 
-            var query = from word in words
-                        orderby word.Length, word.Substring(0, 1)
-                        select word;
+            //var query = from word in words
+            //            orderby word.Length, word.Substring(0, 1)
+            //            select word;
 
-            foreach(string str in query)
-            {
-                Console.WriteLine(str);
-            }
+            //foreach(string str in query)
+            //{
+            //    Console.WriteLine(str);
+            //}
             #endregion
+
+            #region Secondary Decending Sort
+            //string[] words = { "the", "quick", "brown", "fox", "jumps"};
+
+            //var query = from word in words
+            //            orderby word.Length, word.Substring(0, 1) descending
+            //            select word;
+
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            //Set Operator In LINQ
+            #region Distinct Remove duplicate value
+
+            //string[] words = { "home", "keyboard", "to", "home", "to", "others"};
+
+            //var query = from word in words.Distinct()
+            //            orderby word.Length, word.Substring(0,1)
+            //            select word;
+
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region Except the first input sequence that are not in the second input seqence
+            string[] Product1 = { "oil","potato", "shampo", "juice"};
+            string[] Product2 = { "oil","apple", "shampo", "juice"};
+
+            var query = from product in Product1.Except(Product2)
+                        select product;
+
+            foreach(var str in query)
+                Console.WriteLine(str);
+            #endregion
+
         }
     }
 }

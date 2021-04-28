@@ -35,60 +35,60 @@ namespace Example1
 
             #region Where LINQ QueryOne
             //write the same query and foreach loop much more conveniently by using var.
-            var studentQuery2 =
-                from student in students
-                where student.Scores[0] > 60
-                select student;
+            //var studentQuery2 =
+            //    from student in students
+            //    where student.Scores[0] > 60
+            //    select student;
 
-            foreach (var student in studentQuery2)
-            {
-                Console.WriteLine("{0} , {1}", student.Last, student.First);
-            }
+            //foreach (var student in studentQuery2)
+            //{
+            //    Console.WriteLine("{0} , {1}", student.Last, student.First);
+            //}
 
             #endregion
 
             #region Where Multiple Boolen Condition LINQ QueryTwo
-            IEnumerable<Student> studentQuery3 =
-                from student in students
-                where student.Scores[0] > 90 && student.Scores[3] < 80
-                select student;
+            //IEnumerable<Student> studentQuery3 =
+            //    from student in students
+            //    where student.Scores[0] > 90 && student.Scores[3] < 80
+            //    select student;
 
-            foreach (Student student in studentQuery3)
-            {
-                Console.WriteLine("{0} , {1}", student.Scores[0], student.Scores[3]);
-            }
+            //foreach (Student student in studentQuery3)
+            //{
+            //    Console.WriteLine("{0} , {1}", student.Scores[0], student.Scores[3]);
+            //}
             #endregion
 
             #region OrderBy Ascending
-            IEnumerable<Student> studentQuery4 =
-                from student in students
-                orderby student.Scores[0] ascending
-                select student;
+            //IEnumerable<Student> studentQuery4 =
+            //    from student in students
+            //    orderby student.Scores[0] ascending
+            //    select student;
 
-            foreach (Student student in studentQuery4)
-            {
-                Console.WriteLine("{0} ", student.Scores[1]);
-            }
+            //foreach (Student student in studentQuery4)
+            //{
+            //    Console.WriteLine("{0} ", student.Scores[1]);
+            //}
 
-            IEnumerable<Student> studentQuery5 =
-                from student in students
-                orderby student.First ascending
-                select student;
+            //IEnumerable<Student> studentQuery5 =
+            //    from student in students
+            //    orderby student.First ascending
+            //    select student;
 
-            foreach (Student student in studentQuery5)
-            {
-                Console.WriteLine("{0}", student.First);
-            }
+            //foreach (Student student in studentQuery5)
+            //{
+            //    Console.WriteLine("{0}", student.First);
+            //}
 
-            IEnumerable<Student> studentQuery6 =
-                from student in students
-                orderby student.Scores[0] descending
-                select student;
+            //IEnumerable<Student> studentQuery6 =
+            //    from student in students
+            //    orderby student.Scores[0] descending
+            //    select student;
 
-            foreach (Student student in studentQuery6)
-            {
-                Console.WriteLine("{0} , {1} , {2}", student.Last, student.First, student.Scores[0]);
-            }
+            //foreach (Student student in studentQuery6)
+            //{
+            //    Console.WriteLine("{0} , {1} , {2}", student.Last, student.First, student.Scores[0]);
+            //}
             #endregion
 
             #region Group Query
@@ -120,35 +120,35 @@ namespace Example1
             #endregion
 
             #region To order the groups by their "Let" key value
-            var studentQuery1 =
-                from student in students
-                group student by student.Last[0] into studentGroup
-                orderby studentGroup.Key
-                select studentGroup;
+            //var studentQuery1 =
+            //    from student in students
+            //    group student by student.Last[0] into studentGroup
+            //    orderby studentGroup.Key
+            //    select studentGroup;
 
-            foreach (var groupOfStudents in studentQuery1)
-            {
-                Console.WriteLine(groupOfStudents.Key);
-                foreach (var student in groupOfStudents)
-                {
-                    Console.WriteLine("{0} , {1}", student.Last, student.First);
-                }
-            }
+            //foreach (var groupOfStudents in studentQuery1)
+            //{
+            //    Console.WriteLine(groupOfStudents.Key);
+            //    foreach (var student in groupOfStudents)
+            //    {
+            //        Console.WriteLine("{0} , {1}", student.Last, student.First);
+            //    }
+            //}
             #endregion
 
 
             #region Introduce an identifier by using let
-            var studentQuery =
-                from student in students
-                let totalScore = student.Scores[0] + student.Scores[1] +
-                    student.Scores[2] + student.Scores[3]
-                where totalScore / 4 < student.Scores[0]
-                select student.Last + " " + student.First;
+            //var studentQuery =
+            //    from student in students
+            //    let totalScore = student.Scores[0] + student.Scores[1] +
+            //        student.Scores[2] + student.Scores[3]
+            //    where totalScore / 4 < student.Scores[0]
+            //    select student.Last + " " + student.First;
 
-            foreach(string print in studentQuery)
-            {
-                Console.WriteLine(print);
-            }
+            //foreach(string print in studentQuery)
+            //{
+            //    Console.WriteLine(print);
+            //}
             #endregion
 
             #region User method syntax in a query expression
@@ -163,45 +163,57 @@ namespace Example1
             #endregion
 
             #region Select Query
-            var studentQuery8 =
-                from student in students
-                let x = student.Scores[0] + student.Scores[1] +
-                        student.Scores[2] + student.Scores[3]
-                where x > averageScore
-                select new { id = student.ID, score = x };
+            //var studentQuery8 =
+            //    from student in students
+            //    let x = student.Scores[0] + student.Scores[1] +
+            //            student.Scores[2] + student.Scores[3]
+            //    where x > averageScore
+            //    select new { id = student.ID, score = x };
 
-            foreach (var item in studentQuery8)
-            {
-                Console.WriteLine("Student ID: {0}, Score: {1}", item.id, item.score);
-            }
+            //foreach (var item in studentQuery8)
+            //{
+            //    Console.WriteLine("Student ID: {0}, Score: {1}", item.id, item.score);
+            //}
 
             #endregion
 
-            #region Using query expression syntax
-            string sentence = "the quick brown fox jums over the lazy dog";
-            string[] words = sentence.Split(' ');
+            #region  Split the string into individual words to create a collection
+            //string sentence = "the quick brown fox jums over the lazy dog";
+            //string[] words = sentence.Split(' ');
 
-            var query =
-                from word in words
-                group word.ToUpper() by word.Length into gr
-                orderby gr.Key
-                select new { Length = gr.Key, Words = gr};
+            //var query =
+            //    from word in words
+            //    group word.ToUpper() by word.Length into gr
+            //    orderby gr.Key
+            //    select new { Length = gr.Key, Words = gr};
 
-            //using method-based query Syntax
+            ////using method-based query Syntax
 
-            var query2 = words.
-                GroupBy(w => w.Length, w => w.ToUpper()).
-                Select(g => new { Length = g.Key, Words = g }).
-                OrderBy( o => o.Length );
+            //var query2 = words.
+            //    GroupBy(w => w.Length, w => w.ToUpper()).
+            //    Select(g => new { Length = g.Key, Words = g }).
+            //    OrderBy( o => o.Length );
 
-            foreach(var obj in query)
-            {
-                Console.WriteLine("Word of length{0}: ", obj.Length);
-                foreach(string word in obj.Words)
-                {
-                    Console.WriteLine(word);
-                }
-            }
+            //foreach(var obj in query)
+            //{
+            //    Console.WriteLine("Word of length{0}: ", obj.Length);
+            //    foreach(string word in obj.Words)
+            //    {
+            //        Console.WriteLine(word);
+            //    }
+            //}
+            #endregion
+
+            //Primary Sort Example
+            #region
+            string[] words = { "the", "what", "they", "Can", "do", "where"};
+
+            var query = from word in words
+                        orderby word.Length
+                        select word;
+
+            foreach(string str in query)
+                Console.WriteLine(str);
             #endregion
         }
     }

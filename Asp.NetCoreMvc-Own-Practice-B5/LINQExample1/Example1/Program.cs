@@ -205,15 +205,39 @@ namespace Example1
             #endregion
 
             //Primary Sort Example
-            #region
-            string[] words = { "the", "what", "they", "Can", "do", "where"};
+            #region Primary Assending Sort
+            //string[] words = { "the", "what", "they", "Can", "do", "where"};
+
+            //var query = from word in words
+            //            orderby word.Length
+            //            select word;
+
+            //foreach(string str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region Primary Descending sory
+            //string[] words = { "the", "comge", "go","greatefull","Enjoy"};
+
+            //var query = from word in words
+            //            orderby word.Substring(0, 1) descending
+            //            select word;
+
+            //foreach(string str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region Secondary Ascending sort
+            string[] words = { "the", "quick", "brown", "fox", "jumps"};
 
             var query = from word in words
-                        orderby word.Length
+                        orderby word.Length, word.Substring(0, 1)
                         select word;
 
             foreach(string str in query)
+            {
                 Console.WriteLine(str);
+            }
             #endregion
         }
     }

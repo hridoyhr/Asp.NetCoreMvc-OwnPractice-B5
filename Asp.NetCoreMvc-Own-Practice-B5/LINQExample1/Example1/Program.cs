@@ -265,14 +265,27 @@ namespace Example1
             #endregion
 
             #region Except the first input sequence that are not in the second input seqence
-            string[] Product1 = { "oil","potato", "shampo", "juice"};
-            string[] Product2 = { "oil","apple", "shampo", "juice"};
+            //string[] Product1 = { "oil","potato", "shampo", "juice"};
+            //string[] Product2 = { "oil","apple", "shampo", "juice"};
 
-            var query = from product in Product1.Except(Product2)
-                        select product;
+            //var query = from product in Product1.Except(Product2)
+            //            select product;
+
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region Intersect the element that are to both input sequence
+            string[] planets1 = { "Mercury", "Venus", "Earth", "Jupiter" };
+            string[] planets2 = { "Mercury", "Earth", "Mars", "Jupiter" };
+
+            var query = from planet in planets1.Intersect(planets2)
+                        orderby planet.Length, planet.Substring(0,1)
+                        select planet;
 
             foreach(var str in query)
                 Console.WriteLine(str);
+
             #endregion
 
         }

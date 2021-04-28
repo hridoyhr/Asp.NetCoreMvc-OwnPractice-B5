@@ -187,7 +187,7 @@ namespace Example1
                 orderby gr.Key
                 select new { Length = gr.Key, Words = gr};
 
-            //using method-based query syntax
+            //using method-based query Syntax
 
             var query2 = words.
                 GroupBy(w => w.Length, w => w.ToUpper()).

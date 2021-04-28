@@ -45,10 +45,22 @@ namespace QuantifierOperations_LINQ
 
             //Projection Operations
             #region Select method
-            List<string> words = new List<string> { "an", "apple", "arrange", "day"};
+            //List<string> words = new List<string> { "an", "apple", "arrange", "day"};
 
-            var query = from word in words
-                        select word.Substring(0, 2);
+            //var query = from word in words
+            //            select word.Substring(0, 2);
+
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region SelectMany
+            List<string> sentences = new List<string> { "an apple a day", "the quick brown fox"};
+
+            var query = from sentence in sentences
+                        from word in sentence.Split(' ')
+                        orderby word.Length, word.Substring(0, 1) descending
+                        select word;
 
             foreach(var str in query)
                 Console.WriteLine(str);

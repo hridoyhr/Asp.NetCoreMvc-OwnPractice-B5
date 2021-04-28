@@ -254,11 +254,22 @@ namespace Example1
             //Set Operator In LINQ
             #region Distinct Remove duplicate value
 
-            string[] words = { "home", "keyboard", "to", "home", "to", "others"};
+            //string[] words = { "home", "keyboard", "to", "home", "to", "others"};
 
-            var query = from word in words.Distinct()
-                        orderby word.Length, word.Substring(0,1)
-                        select word;
+            //var query = from word in words.Distinct()
+            //            orderby word.Length, word.Substring(0,1)
+            //            select word;
+
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
+            #endregion
+
+            #region Except the first input sequence that are not in the second input seqence
+            string[] Product1 = { "oil","potato", "shampo", "juice"};
+            string[] Product2 = { "oil","apple", "shampo", "juice"};
+
+            var query = from product in Product1.Except(Product2)
+                        select product;
 
             foreach(var str in query)
                 Console.WriteLine(str);

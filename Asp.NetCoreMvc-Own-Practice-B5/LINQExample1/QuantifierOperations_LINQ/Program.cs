@@ -25,9 +25,18 @@ namespace QuantifierOperations_LINQ
             #endregion
 
             #region Any Method
+            //var names = from market in markets
+            //           where market.Items.Any(item => item.StartsWith("o"))
+            //           select market.Name;
+
+            //foreach(var name in names)
+            //    Console.WriteLine(name);
+            #endregion
+
+            #region Contains Method
             var names = from market in markets
-                       where market.Items.Any(item => item.StartsWith("o"))
-                       select market.Name;
+                        where market.Items.Contains("kiwi")
+                        select market.Name;
 
             foreach(var name in names)
                 Console.WriteLine(name);

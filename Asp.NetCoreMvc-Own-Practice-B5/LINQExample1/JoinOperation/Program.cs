@@ -24,12 +24,30 @@ namespace JoinOperation
 
         static void Main(string[] args)
         {
-            var query = from product in products
-                        join category in categories on product.CategoryID equals category.ID
-                        select new{product.Name, category.CategoryName};
+            #region Join
+            //var query = from product in products
+            //            join category in categories on product.CategoryID equals category.ID
+            //            select new { product.Name, category.CategoryName };
 
-            foreach(var item in query)
-                Console.WriteLine($"{item.Name} - {item.CategoryName}");
+            //foreach (var item in query)
+            //    Console.WriteLine($"{item.Name} - {item.CategoryName}");
+            #endregion
+
+            #region GroupJoin
+            var productGroups = from category in categories
+                                join product in products on category.ID equals product.CategoryID into productGroup
+                                select productGroup;
+
+            foreach(var productGroup in productGroups)
+            {
+                Console.WriteLine("Group");
+                foreach(Product product in productGroup)
+                {
+                    Console.WriteLine($"{product.Name,8}");
+                }
+            }
+            #endregion
+
         }
     }
 }

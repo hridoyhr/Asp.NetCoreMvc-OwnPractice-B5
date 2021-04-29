@@ -1,0 +1,15 @@
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\GroupingData.exe
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\GroupingData.deps.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\GroupingData.runtimeconfig.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\GroupingData.runtimeconfig.dev.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\GroupingData.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\ref\GroupingData.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\bin\Debug\net5.0\GroupingData.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.GeneratedMSBuildEditorConfig.editorconfig
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.AssemblyInfoInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.AssemblyInfo.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.csproj.CoreCompileInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\ref\GroupingData.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\GroupingData\obj\Debug\net5.0\GroupingData.genruntimeconfig.cache

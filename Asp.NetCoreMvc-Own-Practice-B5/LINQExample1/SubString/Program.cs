@@ -12,6 +12,10 @@ namespace SubString
 
             String substring = value.Substring(startIndex, length);
             Console.WriteLine(substring);
+
+            Trail obj = new Trail();
+            
+            obj.Sum(20,20);
         }
     }
 }

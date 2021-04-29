@@ -1,0 +1,16 @@
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\JoinOperation.exe
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\JoinOperation.deps.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\JoinOperation.runtimeconfig.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\JoinOperation.runtimeconfig.dev.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\JoinOperation.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\ref\JoinOperation.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\bin\Debug\net5.0\JoinOperation.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.csprojAssemblyReference.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.GeneratedMSBuildEditorConfig.editorconfig
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.AssemblyInfoInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.AssemblyInfo.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.csproj.CoreCompileInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\ref\JoinOperation.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\JoinOperation\obj\Debug\net5.0\JoinOperation.genruntimeconfig.cache

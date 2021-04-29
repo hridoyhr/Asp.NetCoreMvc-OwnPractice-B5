@@ -55,16 +55,18 @@ namespace QuantifierOperations_LINQ
             #endregion
 
             #region SelectMany
-            List<string> sentences = new List<string> { "an apple a day", "the quick brown fox"};
+            //List<string> sentences = new List<string> { "an apple a day", "the quick brown fox"};
 
-            var query = from sentence in sentences
-                        from word in sentence.Split(' ')
-                        orderby word.Length, word.Substring(0, 1) descending
-                        select word;
+            //var query = from sentence in sentences
+            //            from word in sentence.Split(' ')
+            //            orderby word.Length, word.Substring(0, 1) descending
+            //            select word;
 
-            foreach(var str in query)
-                Console.WriteLine(str);
+            //foreach(var str in query)
+            //    Console.WriteLine(str);
             #endregion
+
+            
         }
     }
 }

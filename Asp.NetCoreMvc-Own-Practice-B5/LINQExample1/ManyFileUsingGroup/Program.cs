@@ -7,7 +7,7 @@ namespace ManyFileUsingGroup
     {
         static void Main(string[] args)
         {
-            //This program show one way to merge the contents of tw file &
+            //This program show one way to merge the contents of two file &
             //then create a set of new file.
             string[] fileA = System.IO.File.ReadAllLines(@"../../../names1.txt");
             string[] fileB = System.IO.File.ReadAllLines(@"../../../names2.txt");

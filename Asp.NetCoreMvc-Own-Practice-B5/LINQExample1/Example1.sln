@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQMethod", "LINQMethod\LI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyFileUsingGroup", "ManyFileUsingGroup\ManyFileUsingGroup.csproj", "{E01051B2-B425-4676-BC4E-FCA35C095E05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulateObjCollection", "PopulateObjCollection\PopulateObjCollection.csproj", "{E926C098-B542-437D-B10C-4E9BBE534CE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E01051B2-B425-4676-BC4E-FCA35C095E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E01051B2-B425-4676-BC4E-FCA35C095E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E01051B2-B425-4676-BC4E-FCA35C095E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E926C098-B542-437D-B10C-4E9BBE534CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E926C098-B542-437D-B10C-4E9BBE534CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E926C098-B542-437D-B10C-4E9BBE534CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E926C098-B542-437D-B10C-4E9BBE534CE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

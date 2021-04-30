@@ -1,0 +1,15 @@
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\LINQMethod.exe
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\LINQMethod.deps.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\LINQMethod.runtimeconfig.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\LINQMethod.runtimeconfig.dev.json
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\LINQMethod.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\ref\LINQMethod.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\bin\Debug\net5.0\LINQMethod.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.GeneratedMSBuildEditorConfig.editorconfig
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.AssemblyInfoInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.AssemblyInfo.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.csproj.CoreCompileInputs.cache
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\ref\LINQMethod.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.pdb
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\Asp.NetCoreMvc-OwnPractice-B5\Asp.NetCoreMvc-Own-Practice-B5\LINQExample1\LINQMethod\obj\Debug\net5.0\LINQMethod.genruntimeconfig.cache

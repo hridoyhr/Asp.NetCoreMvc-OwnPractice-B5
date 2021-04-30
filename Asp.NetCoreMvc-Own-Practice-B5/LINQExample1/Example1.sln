@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantifierOperations_LINQ",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubString", "SubString\SubString.csproj", "{82D078CB-B31C-4B94-81CB-E2AB53B719AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectVsSelectMany", "SelectVsSelectMany\SelectVsSelectMany.csproj", "{14187DF8-537E-4EB6-BFD1-3856B845745F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectVsSelectMany", "SelectVsSelectMany\SelectVsSelectMany.csproj", "{14187DF8-537E-4EB6-BFD1-3856B845745F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinOperation", "JoinOperation\JoinOperation.csproj", "{22B74D79-64D1-4B61-B315-52C7702D5AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoinOperation", "JoinOperation\JoinOperation.csproj", "{22B74D79-64D1-4B61-B315-52C7702D5AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQMethod", "LINQMethod\LINQMethod.csproj", "{9BF407EF-12E9-4770-B498-9859E32E05F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{22B74D79-64D1-4B61-B315-52C7702D5AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B74D79-64D1-4B61-B315-52C7702D5AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B74D79-64D1-4B61-B315-52C7702D5AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF407EF-12E9-4770-B498-9859E32E05F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF407EF-12E9-4770-B498-9859E32E05F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF407EF-12E9-4770-B498-9859E32E05F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF407EF-12E9-4770-B498-9859E32E05F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

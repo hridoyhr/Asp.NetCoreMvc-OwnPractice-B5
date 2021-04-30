@@ -14,10 +14,12 @@ namespace LINQMethod
             };
         static void Main(string[] args)
         {
+            //Cast Type to subtype
             var query = from CategoryPlant plant in plants
                         where plant.TrapType == "Snap Trap"
                         select plant;
 
+            
             foreach(Plant plant in query)
                 Console.WriteLine(plant.Name);
 

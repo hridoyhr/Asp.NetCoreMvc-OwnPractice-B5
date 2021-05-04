@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj": {}
+    "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\DevSkillCSharp_Practice\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj": {}
   },
   "projects": {
-    "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj": {
+    "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\DevSkillCSharp_Practice\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj",
+        "projectUniqueName": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\DevSkillCSharp_Practice\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj",
         "projectName": "CSharpPractice",
-        "projectPath": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj",
+        "projectPath": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\DevSkillCSharp_Practice\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\CSharpPractice.csproj",
         "packagesPath": "C:\\Users\\Hridoy\\.nuget\\packages\\",
-        "outputPath": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\obj\\",
+        "outputPath": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\DevSkillCSharp_Practice\\Asp.NetCoreMvc-OwnPractice-B5\\Asp.NetCoreMvc-Own-Practice-B5\\CSharpPractice\\CSharpPractice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hridoy\\AppData\\Roaming\\NuGet\\NuGet.Config",

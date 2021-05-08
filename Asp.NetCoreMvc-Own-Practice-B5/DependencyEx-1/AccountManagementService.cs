@@ -9,6 +9,10 @@ namespace DependencyEx_1
     public class AccountManagementService
     {
         private IDatabaseAccessService _databaseAccessService;
+        public AccountManagementService()
+        {
+            _databaseAccessService = new DatabaseAccessService();
+        }
         public AccountManagementService(IDatabaseAccessService databaseAccessService)
         {
             _databaseAccessService = databaseAccessService;
